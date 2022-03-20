@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 500px) {
+  h1.presentation-title {
+    font-size: 86px !important
+  }
+}
+@media screen and (max-width: 436px) {
+  h1.presentation-title {
+    font-size: 76px !important
+  }
+}
+@media screen and (max-width: 380px) {
+  h1.presentation-title {
+    font-size: 56px !important
+  }
+}
