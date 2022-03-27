@@ -2,13 +2,13 @@ const featureProjects = [
   {
     title: "Idea Board",
     desc: "A full-stack application written on Nodejs and React. Users can create new accounts, can login into the app by choosing their preferred account. Users then can manage their ideas. Each idea is saved automatically, together with messages for each action, make a nice user experience.",
-    linkWeb: "https://github.com/Dom119/idea-board",
+    linkWeb: "https://idea-board-dom.herokuapp.com/",
     linkGit: "https://github.com/Dom119/idea-board",
     photo: require("../../../assets/img/javaScriptProjectPhotos/ideaBoard.png"),
-    technologies: ["ReactJs", "NodeJs", "Express", "react-router-dom"],
+    technologies: ["ReactJs", "NodeJs", "Express", "react-router-dom", "Styled Component","Heroku"],
   },
   {
-    title: "Weather Forecast Application",
+    title: "Weather Forecast",
     desc: "A real-time forecast weather application using Open-Weather-Map API, one of the most popular API in this field. It also uses a postcode API to suggest suburb name based on entered postcode. Users can choose multiple suburbs to display. The application shows current weather as well as forecast for the next 7 days. ",
     linkWeb: "https://weather-app-dom-le.herokuapp.com/",
     linkGit: "https://github.com/Dom119/weather-app",
@@ -16,12 +16,20 @@ const featureProjects = [
     technologies: ["React", "OpenWeatherMap API"],
   },
   {
+    title: "Shopping Card",
+    desc: "A full-stack application written on .Net/C# and React. Users can perform Create/ Update/ Delete customers, products, stores and sales. It also shows pagination and sorting functionalities.",
+    linkWeb: "https://iconboardingtaskdom119.azurewebsites.net/",
+    linkGit: "https://github.com/Dom119/IC_Onboarding_Task_Azure",
+    photo: require("../../../assets/img/javaScriptProjectPhotos/shoppingCard.png"),
+    technologies: [".NET", "C#", "ReactJs", "SQLite", "react-router-dom", "semantic-react-ui","Azure"],
+  },
+  {
     title: "Todo App",
     desc: "A useful To Do Application which allows users to perform CRUD (create, update, delete) their tasks. The application connect with localStorage in user's web browser so users can access their previous notes anytime they open their browser.",
     linkWeb: "https://dom119.github.io/todo-app-dom-le/",
     linkGit: "https://github.com/Dom119/todo-app-dom-le",
     photo: require("../../../assets/img/javaScriptProjectPhotos/todo2.png"),
-    technologies: [],
+    technologies: ["ReactJs","Context API", "UseEffect", "UseState"],
   },
   {
     title: "Calculator",
