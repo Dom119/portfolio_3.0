@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "reactstrap";
 
 export default function Project({ project }) {
-  const { title, desc, linkWeb, linkGit, photo } = project;
+  const { title, desc, linkWeb, linkGit, photo, technologies } = project;
   return (
     <div>
       <div className="feature">
@@ -13,21 +13,28 @@ export default function Project({ project }) {
             <Button
               className="btn-round mr-1 myBtn "
               color="danger"
-              style={{ color: "white"}}
+              style={{ color: "white", marginBottom: "0px" }}
               href={linkWeb}
               target="_blank"
             >
-              Website
+              View Website
             </Button>
             <Button
               className="btn-round myBtn"
               color="danger"
-              style={{ color: "white" }}
+              style={{ color: "white", marginBottom: "0px" }}
               href={linkGit}
               target="_blank"
             >
               Source Code
             </Button>
+          </div>
+          <div className="techs">
+            {technologies.map((tech, index) => (
+              <span className="tech" key={index}>
+                {tech}
+              </span>
+            ))}
           </div>
         </div>
         <div className="feature-project-img">
