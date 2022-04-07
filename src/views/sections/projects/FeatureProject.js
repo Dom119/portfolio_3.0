@@ -38,7 +38,7 @@ export default function Project({ project }) {
           </div>
         </div>
         <div className="feature-project-img">
-          <img src={photo} alt="Project photo" />
+          <img src={photo} alt="Project photo" style={{height: "auto"}} />
         </div>
       </div>
     </div>

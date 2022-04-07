@@ -1,11 +1,34 @@
 const featureProjects = [
   {
+    title: "My Real Estate",
+    desc: "This is a clone version of Realestate.com.au, where users can find their next dream properties based on postcodes and save them to see later. The app got backend written in Nodejs and Express, with authentication implementation.",
+    linkWeb: "https://my-real-estate-dom-le.herokuapp.com/",
+    linkGit: "https://github.com/Dom119/my-real-estate-final-project-ga",
+    photo: require("../../../assets/img/javaScriptProjectPhotos/real-estate.png"),
+    technologies: [
+      "React",
+      "react-router-dom",
+      "Redux Toolkit",
+      "NodeJs",
+      "Express",
+      "Domain API",
+      "Styled Component",
+    ],
+  },
+  {
     title: "Idea Board",
     desc: "A full-stack application written on Nodejs and React. Users can create new accounts, can login into the app by choosing their preferred account. Users then can manage their ideas. Each idea is saved automatically, together with messages for each action, make a nice user experience.",
     linkWeb: "https://idea-board-dom.herokuapp.com/",
     linkGit: "https://github.com/Dom119/idea-board",
     photo: require("../../../assets/img/javaScriptProjectPhotos/ideaBoard.png"),
-    technologies: ["ReactJs", "NodeJs", "Express", "react-router-dom", "Styled Component","Heroku"],
+    technologies: [
+      "ReactJs",
+      "NodeJs",
+      "Express",
+      "react-router-dom",
+      "Styled Component",
+      "Heroku",
+    ],
   },
   {
     title: "Weather Forecast",
@@ -21,7 +44,15 @@ const featureProjects = [
     linkWeb: "https://iconboardingtaskdom119.azurewebsites.net/",
     linkGit: "https://github.com/Dom119/IC_Onboarding_Task_Azure",
     photo: require("../../../assets/img/javaScriptProjectPhotos/shoppingCard.png"),
-    technologies: [".NET", "C#", "ReactJs", "SQLite", "react-router-dom", "semantic-react-ui","Azure"],
+    technologies: [
+      ".NET",
+      "C#",
+      "ReactJs",
+      "SQLite",
+      "react-router-dom",
+      "semantic-react-ui",
+      "Azure",
+    ],
   },
   {
     title: "Todo App",
@@ -29,7 +60,7 @@ const featureProjects = [
     linkWeb: "https://dom119.github.io/todo-app-dom-le/",
     linkGit: "https://github.com/Dom119/todo-app-dom-le",
     photo: require("../../../assets/img/javaScriptProjectPhotos/todo2.png"),
-    technologies: ["ReactJs","Context API", "UseEffect", "UseState"],
+    technologies: ["ReactJs", "Context API", "UseEffect", "UseState"],
   },
   {
     title: "Calculator",
@@ -54,24 +85,6 @@ const featureProjects = [
     linkGit: "https://github.com/Dom119/React-Github-Finder",
     photo: require("../../../assets/img/javaScriptProjectPhotos/gitHubFinder.png"),
     technologies: ["GitHub API"],
-  },
-  {
-    title: "My Real Estate",
-    desc: "This application is still in production, it will be available soon...This application mimics the main functionalities of RealEstate.com.au, using Domain API",
-    linkWeb: "https://my-real-estate-dom-le.herokuapp.com/",
-    linkGit: "https://github.com/Dom119/my-real-estate-final-project-ga",
-    photo: require("../../../assets/img/javaScriptProjectPhotos/myRealEstate.png"),
-    technologies: [
-      "TypeScript",
-      "React",
-      "react-router-dom",
-      "Redux",
-      "NodeJs",
-      "Express",
-      "Domain API",
-      "Firebase Authentication",
-      "Styled Component",
-    ],
   },
 ];
 
