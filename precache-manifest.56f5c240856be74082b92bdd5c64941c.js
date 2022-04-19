@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c26e8418ee9db85df7162b975e491857",
+    "revision": "7be801ac492a0b417675cb49882b555c",
     "url": "/portfolio_3.0/index.html"
   },
   {
-    "revision": "eaf0479f1256cf5e1ac6",
+    "revision": "df39eceb26c11bd92909",
     "url": "/portfolio_3.0/static/css/main.4d898bda.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_3.0/static/js/2.e605e7eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eaf0479f1256cf5e1ac6",
-    "url": "/portfolio_3.0/static/js/main.03ddcca5.chunk.js"
+    "revision": "df39eceb26c11bd92909",
+    "url": "/portfolio_3.0/static/js/main.4a9dc7a4.chunk.js"
   },
   {
     "revision": "60e0994ea92f0c2d54d3",
@@ -98,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
     "url": "/portfolio_3.0/static/media/nucleo-icons.f32ed5ad.eot"
+  },
+  {
+    "revision": "1d34452efef326f69cba4cce5f31026a",
+    "url": "/portfolio_3.0/static/media/real-estate.1d34452e.png"
   },
   {
     "revision": "870f06b01fe7e90068ba2a4edf1b5ed1",
