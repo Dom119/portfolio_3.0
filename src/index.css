@@ -139,10 +139,42 @@ h3 {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 840px) {
   .small-projects {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .feature-project-desc {
+    width: 400px;
+  }
+  .fpi {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .small-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .feature-project-desc {
+    width: 350px;
+  }
+  .fpi {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .small-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .feature-project-desc {
+    width: 300px;
+  }
+  .fpi {
+    width: 300px;
   }
 }
 
